@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
-from keras.models import Sequential
+from tensorflow.keras.models import Sequential
 
 model = joblib.load(r"D:\Rent_prediction\src\model\house_rent_prediction_model.pkl")
 x_scaler = joblib.load(r"D:\Rent_prediction\src\model\x_scaler.pkl")
