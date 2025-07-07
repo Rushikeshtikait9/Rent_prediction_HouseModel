@@ -5,6 +5,5 @@ numpy
 pandas
 matplotlib
 plotly
-keras
-tensorflow
-
+tensorflow==2.12.0
+keras==2.12.0
