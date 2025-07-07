@@ -3,9 +3,9 @@ import numpy as np
 import joblib
 from tensorflow.keras.models import Sequential
 
-model = joblib.load("src\model\house_rent_prediction_model.pkl")
-x_scaler = joblib.load("src\model\x_scaler.pkl")
-y_scaler = joblib.load("src\model\y_scaler.pkl")
+model = joblib.load("src/model/house_rent_prediction_model.pkl")
+x_scaler = joblib.load("src/model/x_scaler.pkl")
+y_scaler = joblib.load("src/model/y_scaler.pkl")
 
 area_map = {"Super Area": 1, "Carpet Area": 2, "Built Area": 3}
 city_map = {
